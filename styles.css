@@ -1,0 +1,61 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #13678A;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.crop{
+    background-color: white;
+    border: 15px solid #45C4B0;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+footer{
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p{
+    font-size: 2rem;
+}
+
+.image{
+    position: relative;
+}
+
+
+.word{
+    position: absolute;
+    bottom: 5px;
+    left: 40px;
+    color: coral;
+    font-size: 6rem;
+}
+
+button{
+    border: none;
+}
+
+
